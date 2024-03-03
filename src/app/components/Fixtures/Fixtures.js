@@ -58,7 +58,7 @@ const Fixtures = () => {
   ];
 
   return (
-    <div className='layout-cards md:grid md:p-12' id="Fixtures">
+    <div className='layout-cards md:grid md:p-12 text-black dark:text-white' id="Fixtures">
       <Matches items={items} />
     </div>
   );
