@@ -1,6 +1,4 @@
 "use client";
-import Image from "next/image";
-
 
 // PlayerNames.tsx
 const Teams = () => {
@@ -84,11 +82,11 @@ const Teams = () => {
           {players.map((player, index) => (
             <div key={index} className="flex items-center space-x-2 border-b border-gray-300 py-2 m-2">
               
-              <Image src={player.image} alt={player.name} className="w-10 h-10 rounded-full inline-block" />
+              <img src={player.image} alt={player.name} className="w-10 h-10 rounded-full inline-block" />
               <p className="text-lg md:px-8 px-4">{player.name}</p>
               {Array.isArray(player.typeLogos) ? (
                 player.typeLogos.map((logo, idx) => (
-                  <Image
+                  <img
                     key={idx}
                     src={logo}
                     alt={player.type}
@@ -97,7 +95,7 @@ const Teams = () => {
                   />
                 ))
               ) : (
-                <Image
+                <img
                   src={player.typeLogos}
                   alt={player.type}
                   title={player.type}

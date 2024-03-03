@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {FloatingNavDemo} from './components/NavBar/NavBar';
 import {HeroScrollDemo} from './components/Header/header';
 import Fixtures from './components/Fixtures/Fixtures';
