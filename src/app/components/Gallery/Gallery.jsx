@@ -33,9 +33,9 @@ const images = [
     { src: "/7.jpeg", alt: "7", },
 
     { src: "/3.jpeg", alt: "3" },
-    { src: "/10.png", alt: "10", },
+    { src: "/13.jpeg", alt: "10", },
 
-    { src: "/11.png", alt: "11", },
+    { src: "/14.jpeg", alt: "11", },
 ]
 
 export function Gallery() {
