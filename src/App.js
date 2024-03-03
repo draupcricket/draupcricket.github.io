@@ -1,7 +1,10 @@
 import './App.css';
-import Header from './components/Header/Header';
+
 import NavBar from './components/NavBar/NavBar';
+import  { HeroScrollDemo }  from './components/New_header/New_header';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState } from 'react';
 
 
 
@@ -10,7 +13,7 @@ function App() {
   return (
     <div className="App">
        <NavBar />
-      <Header/>
+       <HeroScrollDemo />
      
    
     </div>

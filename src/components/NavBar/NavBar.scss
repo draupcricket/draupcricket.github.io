@@ -4,9 +4,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: #fff;
   transition: all 0.3s ease-in-out; 
+  width: 100%;
 
   @media (max-width: 768px) {
     flex-direction: column; 
@@ -45,6 +45,8 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  flex: 1 1;
+  justify-content: center;
 }
 
 .navbar__links li {
