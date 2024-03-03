@@ -83,11 +83,11 @@ const Teams = () => {
           {players.map((player, index) => (
             <div key={index} className="flex items-center space-x-2 border-b border-gray-300 py-2 m-2">
               
-              <img src={player.image} alt={player.name} className="w-10 h-10 rounded-full inline-block" />
+              <Image src={player.image} alt={player.name} className="w-10 h-10 rounded-full inline-block" />
               <p className="text-lg md:px-8 px-4">{player.name}</p>
               {Array.isArray(player.typeLogos) ? (
                 player.typeLogos.map((logo, idx) => (
-                  <img
+                  <Image
                     key={idx}
                     src={logo}
                     alt={player.type}
@@ -96,7 +96,7 @@ const Teams = () => {
                   />
                 ))
               ) : (
-                <img
+                <Image
                   src={player.typeLogos}
                   alt={player.type}
                   title={player.type}
