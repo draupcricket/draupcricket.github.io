@@ -9,8 +9,8 @@ export function HeroScrollDemo() {
         titleComponent={
           <>
             <h1 className="text-2xl font-semibold text-black dark:text-white">
-              COUNTDOWN TO <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+              
+              <span className="text-4xl md:text-[6rem] font-bold mt-4 leading-none ">
                 DRAUP CRICKET TOURNAMENT
               </span>
             </h1>
