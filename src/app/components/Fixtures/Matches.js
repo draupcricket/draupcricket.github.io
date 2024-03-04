@@ -32,7 +32,7 @@ const Matches = ({ items }) => {
   return (
     <>
       {items.map(item => (
-        <motion.div className="card dark:custom-grey flex max-sm: mb-8" key={item.id} layoutId={item.id} onClick={() => handleClick(item.id)}  initial={{ opacity: 1 }}
+        <motion.div className="card dark:bg-neutral-800 bg-white flex max-sm: mb-8" key={item.id} layoutId={item.id} onClick={() => handleClick(item.id)}  initial={{ opacity: 1 }}
         animate={{ opacity: selectedId === item.id ? 0 : 1 }} >
 
           <motion.div className=" p-6 text-white dark:text-black ">
@@ -62,7 +62,7 @@ const Matches = ({ items }) => {
   {selectedId && (
     <motion.div>
       <motion.div
-        className='opened-card dark:custom-black'
+        className='opened-card bg-white dark:bg-neutral-800'
         key={selectedId}
         layoutId={selectedId}
         initial={{ opacity: 0 }}
