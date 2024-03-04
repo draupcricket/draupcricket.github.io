@@ -32,7 +32,7 @@ const Matches = ({ items }) => {
   return (
     <>
       {items.map(item => (
-        <motion.div className="card flex max-sm: mb-8" key={item.id} layoutId={item.id} onClick={() => handleClick(item.id)}  initial={{ opacity: 1 }}
+        <motion.div className="card dark:bg-white flex max-sm: mb-8" key={item.id} layoutId={item.id} onClick={() => handleClick(item.id)}  initial={{ opacity: 1 }}
         animate={{ opacity: selectedId === item.id ? 0 : 1 }} >
 
           <motion.div className=" p-6 text-white dark:text-black ">
@@ -62,7 +62,7 @@ const Matches = ({ items }) => {
   {selectedId && (
     <motion.div>
       <motion.div
-        className='opened-card'
+        className='opened-card dark:bg-white'
         key={selectedId}
         layoutId={selectedId}
         initial={{ opacity: 0 }}
@@ -70,6 +70,7 @@ const Matches = ({ items }) => {
         exit={{ opacity: 0, transition: { duration: 0.1, ease: "easeOut" } }}
         transition={{ duration: 0.5, ease: "easeIn" }}
       >
+        <motion.div className="  shadow-md p-6 text-white dark:text-black ">
         <motion.button
           className="button_close"
           onClick={() => setSelectedId(null)}
@@ -77,8 +78,7 @@ const Matches = ({ items }) => {
         >
           x
         </motion.button>
-        <motion.div className=" border rounded-lg shadow-md p-6 text-white dark:text-black ">
-          <motion.div className="mt-4">
+          <motion.div className="">
             <motion.span className="mr-2 text-black dark:text-white">{items.find(item => item.id === selectedId).format}</motion.span>
           </motion.div>
           <motion.div className="mt-4">
