@@ -19,20 +19,13 @@ import lgFullscreen from 'lightgallery/plugins/fullscreen';
 import lgShare from 'lightgallery/plugins/share';
 import lgRotate from 'lightgallery/plugins/rotate';
 
-const images = [
-    { src: "/1.jpeg", alt: "Draup" },
-    { src: "/5.jpeg", alt: "Draup", },
-    { src: "/6.jpeg", alt: "Draup", },
-    { src: "/15.jpeg", alt: "Draup", },
-    { src: "/Team1.png", alt: "Draup" },
-    { src: "/16.png", alt: "Draup", },
-    { src: "/2.jpeg", alt: "Draup" },
-    { src: "/7.jpeg", alt: "Draup", },
-    { src: "/3.jpeg", alt: "Draup" },
-    { src: "/13.jpeg", alt: "Draup", },
-    { src: "/14.jpeg", alt: "Draup", },
-    { src: "/17.png", alt: "Draup", },
-]
+const numberOfImages = 12; 
+const images = [];
+
+for (let i = 1; i <= numberOfImages; i++) {
+    images.push({ src: `/gallery/${i}.jpeg`, alt: "Draup" });
+}
+
 
 export function Gallery() {
     const onInit = () => {
