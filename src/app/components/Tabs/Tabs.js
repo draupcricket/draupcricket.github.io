@@ -8,8 +8,8 @@ import Team4 from "./Teams4";
 export function TabsDemo() {
   const tabs = [
     {
-      title: "Team 1",
-      value: "Team 1",
+      title: "Team A",
+      value: "Team A",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
           <p className="max-sm:hidden">Team A Players</p>
@@ -18,8 +18,8 @@ export function TabsDemo() {
       ),
     },
     {
-      title: "Team 2",
-      value: "Team 2",
+      title: "Team B",
+      value: "Team B",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
           <p className="max-sm:hidden">Team B Players</p>
@@ -28,8 +28,8 @@ export function TabsDemo() {
       ),
     },
     {
-      title: "Team 3",
-      value: "Team 3",
+      title: "Team C",
+      value: "Team C",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
           <p className="max-sm:hidden">Team C Players</p>
@@ -38,8 +38,8 @@ export function TabsDemo() {
       ),
     },
     {
-      title: "Team 4",
-      value: "Team 4",
+      title: "Team D",
+      value: "Team D",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
           <p className="max-sm:hidden">Team D Players</p>

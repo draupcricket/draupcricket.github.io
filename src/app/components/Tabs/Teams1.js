@@ -64,7 +64,7 @@ const Team1 = () => {
           typeLogos: "/batsman-logo.png",
       },
       {
-          name: "Krishna Chaitanya Malireddy",
+          name: "Krishna Chaitanya",
           image: "/player.png",
           type: "All-rounder",
           typeLogos: ["/batsman-logo.png", "/bowler-logo.png"], // If all-rounder
