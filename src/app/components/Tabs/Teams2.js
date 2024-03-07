@@ -92,7 +92,7 @@ const Team2 = () => {
     return (
         <div className="md:grid md:grid-cols-2 md:pt-8">
           {players.map((player, index) => (
-            <div key={index} className="flex items-center space-x-2 border-b border-gray-300 py-2 m-2">
+            <div key={index} className="flex items-center space-x-2 border-b border-gray-300 py-1 m-2">
               
               <img src={player.image} alt={player.name} className="w-10 h-10 rounded-full inline-block" />
               <p className="text-lg md:px-8 px-4">{player.name}</p>

@@ -12,7 +12,7 @@ export function TabsDemo() {
       value: "Team 1",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
-          <p className="max-sm:hidden">Team 1 Players</p>
+          <p className="max-sm:hidden">Team A Players</p>
           <Team1 />
         </div>
       ),
@@ -22,7 +22,7 @@ export function TabsDemo() {
       value: "Team 2",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
-          <p className="max-sm:hidden">Team 2 Players</p>
+          <p className="max-sm:hidden">Team B Players</p>
           <Team2 />
         </div>
       ),
@@ -32,7 +32,7 @@ export function TabsDemo() {
       value: "Team 3",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
-          <p className="max-sm:hidden">Team 3 Players</p>
+          <p className="max-sm:hidden">Team C Players</p>
           <Team3 />
         </div>
       ),
@@ -42,7 +42,7 @@ export function TabsDemo() {
       value: "Team 4",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
-          <p className="max-sm:hidden">Team 4 Players</p>
+          <p className="max-sm:hidden">Team D Players</p>
           <Team4 />
         </div>
       ),
