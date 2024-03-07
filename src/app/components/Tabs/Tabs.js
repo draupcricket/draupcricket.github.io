@@ -1,6 +1,9 @@
 // TabsDemo.tsx
 import { Tabs } from "../ui/tabs";
-import Teams from "./Teams";
+import Team1 from "./Teams1";
+import Team2 from "./Teams2";
+import Team3 from "./Teams3";
+import Team4 from "./Teams4";
 
 export function TabsDemo() {
   const tabs = [
@@ -10,7 +13,7 @@ export function TabsDemo() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
           <p className="max-sm:hidden">Team 1 Players</p>
-          <Teams />
+          <Team1 />
         </div>
       ),
     },
@@ -20,7 +23,7 @@ export function TabsDemo() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
           <p className="max-sm:hidden">Team 2 Players</p>
-          <Teams />
+          <Team2 />
         </div>
       ),
     },
@@ -30,7 +33,7 @@ export function TabsDemo() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
           <p className="max-sm:hidden">Team 3 Players</p>
-          <Teams />
+          <Team3 />
         </div>
       ),
     },
@@ -40,7 +43,7 @@ export function TabsDemo() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
           <p className="max-sm:hidden">Team 4 Players</p>
-          <Teams />
+          <Team4 />
         </div>
       ),
     },
