@@ -50,7 +50,7 @@ export function TabsDemo() {
   ];
 
   return (
-    <div className="max-sm:h-[70rem] h-[40rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40" id="Teams">
+    <div className="max-sm:h-[70rem] h-[40rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40 md:mt-4" id="Teams">
       <Tabs tabs={tabs} />
     </div>
   );
