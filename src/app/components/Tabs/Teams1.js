@@ -103,7 +103,7 @@ const Team1 = () => {
                     src={logo}
                     alt={player.type}
                     title={player.type}
-                    className="w-6 h-6 inline-block"
+                    className="w-6 h-8 inline-block"
                   />
                 ))
               ) : (
@@ -111,7 +111,7 @@ const Team1 = () => {
                   src={player.typeLogos}
                   alt={player.type}
                   title={player.type}
-                  className="w-6 h-6 inline-block"
+                  className="w-6 h-8 inline-block"
                 />
               )}
             </div>
