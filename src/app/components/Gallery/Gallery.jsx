@@ -21,21 +21,17 @@ import lgRotate from 'lightgallery/plugins/rotate';
 
 const images = [
     { src: "/1.jpeg", alt: "Draup" },
-
-    { src: "/4.jpeg", alt: "4", },
-
-
-    { src: "/5.jpeg", alt: "5", },
-    { src: "/6.jpeg", alt: "6", },
-    { src: "/Team1.png", alt: "12" },
-    { src: "/2.jpeg", alt: "2" },
-
-    { src: "/7.jpeg", alt: "7", },
-
-    { src: "/3.jpeg", alt: "3" },
-    { src: "/13.jpeg", alt: "10", },
-
-    { src: "/14.jpeg", alt: "11", },
+    { src: "/5.jpeg", alt: "Draup", },
+    { src: "/6.jpeg", alt: "Draup", },
+    { src: "/15.jpeg", alt: "Draup", },
+    { src: "/Team1.png", alt: "Draup" },
+    { src: "/16.png", alt: "Draup", },
+    { src: "/2.jpeg", alt: "Draup" },
+    { src: "/7.jpeg", alt: "Draup", },
+    { src: "/3.jpeg", alt: "Draup" },
+    { src: "/13.jpeg", alt: "Draup", },
+    { src: "/14.jpeg", alt: "Draup", },
+    { src: "/17.png", alt: "Draup", },
 ]
 
 export function Gallery() {
