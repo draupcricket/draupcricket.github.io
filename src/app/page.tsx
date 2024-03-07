@@ -14,13 +14,13 @@ export default function Home() {
     <HeroScrollDemo />
   </div>
     <Details />
-  <div className="items-center justify-between font-mono text-sm lg:flex">
+  <div className="items-center justify-between text-sm lg:flex">
   <Fixtures />
   </div>
-  <div className="w-full items-center justify-between font-mono text-sm lg:flex">
+  <div className="w-full items-center justify-between text-sm lg:flex">
     <TabsDemo />
   </div>
-  <div className="items-center justify-between font-mono text-sm lg:flex">
+  <div className="items-center justify-between text-sm lg:flex">
   <Gallery />
   </div>
 </main>
