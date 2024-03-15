@@ -372,7 +372,7 @@ export function TabsDemo() {
         value,
         content: (
           <div className="w-full overflow-hidden relative h-full rounded-2xl md:p-10 p-4 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-custom-dark to-custom-green">
-            <p className="max-sm:hidden">{title} Players</p>
+            <p className="max-sm:hidden">{title} Squad</p>
             <Team players={players} />
           </div>
         ),
