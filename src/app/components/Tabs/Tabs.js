@@ -4,8 +4,8 @@ import Team from "./Teams";
 export function TabsDemo() {
   const teams = [
     {
-      title: "Team A",
-      value: "Team A",
+      title: "Peaky Blinders",
+      value: "Peaky Blinders",
       players: [
         {
             name: "Nikhil K Raman",
@@ -94,8 +94,8 @@ export function TabsDemo() {
     ]
     },
     {
-      title: "Team B",
-      value: "Team B",
+      title: "White Walkers",
+      value: "White Walkers",
       players : [
         {
             name: "Harish Jangid",
@@ -184,8 +184,8 @@ export function TabsDemo() {
     ]
     },
     {
-      title: "Team C",
-      value: "Team C",
+      title: "Knights United",
+      value: "Knights United",
       players: [
         {
             name: "Saquib Ameer Khan",
@@ -274,8 +274,8 @@ export function TabsDemo() {
     ]
     },
     {
-      title: "Team D",
-      value: "Team D",
+      title: "Draup Mavericks",
+      value: "Draup Mavericks",
       players: [
         {
             name: "Sudeep Rauta",
