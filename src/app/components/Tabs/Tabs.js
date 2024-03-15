@@ -71,13 +71,13 @@ export function TabsDemo() {
             name: "Krishna Chaitanya",
             image: "/player.png",
             type: "All-rounder",
-            typeLogos: ["/batsman-logo.png", "/bowler-logo.png"], 
+            typeLogos: ["/batsman-logo.png", "/bowler-logo.png", "/captain.png"], 
         },
         {
             name: "Seraj S",
             image: "/player.png",
             type: "All-rounder",
-            typeLogos: ["/batsman-logo.png", "/bowler-logo.png"], 
+            typeLogos: ["/batsman-logo.png", "/bowler-logo.png", "/vice-captain.png"], 
         },
         {
             name: "Sukith",
@@ -113,7 +113,7 @@ export function TabsDemo() {
             name: "Sanchit Agrawal",
             image: "/player.png",
             type: "Batter",
-            typeLogos: "/batsman-logo.png",
+            typeLogos: ["/batsman-logo.png",  "/captain.png"],
         },
         {
             name: "Abdal Pasha",
@@ -131,7 +131,7 @@ export function TabsDemo() {
             name: "Jayaraman S",
             image: "/player.png",
             type: "All-rounder",
-            typeLogos: ["/batsman-logo.png", "/bowler-logo.png"], 
+            typeLogos: ["/batsman-logo.png", "/bowler-logo.png",  "/vice-captain.png"], 
         },
         {
             name: "Dhruvraj Singh Rathore",
@@ -203,7 +203,7 @@ export function TabsDemo() {
             name: "Jagan Pradeep",
             image: "/player.png",
             type: "Batter",
-            typeLogos: ["/batsman-logo.png", "/wicket-keeper.png"],
+            typeLogos: ["/batsman-logo.png", "/wicket-keeper.png", "/vice-captain.png"],
         },
         {
             name: "Sparsh Dhand",
@@ -215,7 +215,7 @@ export function TabsDemo() {
             name: "Jayaprakash P",
             image: "/player.png",
             type: "All-rounder",
-            typeLogos: ["/batsman-logo.png", "/bowler-logo.png"],
+            typeLogos: ["/batsman-logo.png", "/bowler-logo.png", "/captain.png"],
         },
         {
             name: "Amit Kumar Mishra",
@@ -299,7 +299,7 @@ export function TabsDemo() {
             name: "Shashank Srivastava",
             image: "/player.png",
             type: "Batter",
-            typeLogos: ["/batsman-logo.png", "/wicket-keeper.png"], 
+            typeLogos: ["/batsman-logo.png", "/wicket-keeper.png", "/vice-captain.png"], 
         },
         {
             name: "Akash Doifode",
@@ -359,7 +359,7 @@ export function TabsDemo() {
             name: "Chandan",
             image: "/player.png",
             type: "All-rounder",
-            typeLogos: ["/batsman-logo.png", "/bowler-logo.png"], 
+            typeLogos: ["/batsman-logo.png", "/bowler-logo.png", "/captain.png"], 
         },
     ]
     },
